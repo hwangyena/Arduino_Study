@@ -15,7 +15,7 @@ void setup() {
 
 void loop() {
   unsigned long currMillis = millis();
-  Serial.print("curr: "); Serial.println(currMillis);
+//  Serial.print("curr: "); Serial.println(currMillis);
   
   if(Serial.available()>0){
     interval = Serial.parseInt();
