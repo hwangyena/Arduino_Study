@@ -16,3 +16,19 @@ C언어 반복문, switch 개념+LED 학습
 + 8_analogBrightness 아날로그 사용 RGB 밝기 변화 구현
 + 9_analogRandom 랜덤 RGB 색상 출력
 + 10_analogRandomColor random, switch 이용 색상 출력
+
+#### Day03
+Analog, 가변저항, 피에조 스피커 활용 예제       
+Arduino 함수, 배열, 이차원배열, 구조체, 클래스 개념 학습     
+인터럽트 
++ 01_PWDtoLEDlight 아날로그와 전압값에 따른 LED 밝기 조절
++ 02_6LEDlight map 함수 이용 6개의 LED 레벨별 분류
++ 03_3LEDlight 가변저항으로 N개의 LED 밝기 조절
++ 04_tone tone 사용, 도~도 출력
++ 05_tone_pitchesHeader "pitches.h" 파일 사용, 도~도 출력
++ 06_tone_madeSong 똑같아요 악보 출력
++ 07_tone_switch 스위치를 사용해 도레미파 출력
++ 08_minmaxFunction function 예제 - 최대, 최솟값 구하기
++ 09_arrMinMaxSum 배열 예제 - 최대, 최소, 합 구하기 
++ 10_interrupt interrupt 사용 예제
++ 11_interrupt_delayTime interrupt 실행시 delay 주기
