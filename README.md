@@ -30,7 +30,7 @@
 > **02_6LEDlight map** 함수 이용 6개의 LED 레벨별 분류     
 > **03_3LEDlight** 가변저항으로 N개의 LED 밝기 조절     
 > **04_ton**e tone 사용, 도~도 출력      
-> **05_tone_pitchesHeader** "pitches.h" 파일 사용, 도~도 출력      
+> **05_tone_pitchesHeader** "pitches.h" 파일 사용, 도,레,미,...도 출력      
 > **06_tone_madeSong** 똑같아요 악보 출력     
 > **07_tone_switch** 스위치를 사용해 도레미파 출력     
 > **08_minmaxFunction** function 예제 - 최대, 최솟값 구하기     
