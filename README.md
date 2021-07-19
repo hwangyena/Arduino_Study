@@ -53,9 +53,9 @@
 > **03_soundSensor2** 소리 센서 사용 예제 2(시간별 소음 측정)            
 > **04_servoMotor** 서보모터 사용 예제        
 > **05_servoControl** 가변저항으로 서보모터 조절      
-> **06_stepMotor** 스텝모터 예제     
-> **07_stepMotor2** 스텝모터 예제 2 (회전 횟수 입력받기)
-> **08_joyStick** 조이스틱 예제
-> **09_joyStickLED** 조이스틱과 스위치로 LED 조절
-> **10_joyStickServoControl** 조이스틱 x축 이동으로 서보모터 회전
-> **11_gameStopwatch** game 스탑워치 활용 예제
+> **06_stepMotor** 스텝모터 예제      
+> **07_stepMotor2** 스텝모터 예제 2 (회전 횟수 입력받기)         
+> **08_joyStick** 조이스틱 예제            
+> **09_joyStickLED** 조이스틱과 스위치로 LED 조절           
+> **10_joyStickServoControl** 조이스틱 x축 이동으로 서보모터 회전          
+> **11_gameStopwatch** game 스탑워치 활용 예제            
