@@ -9,6 +9,21 @@
 운전자 신호와 보행자 신호 동시 출력    
 보행자가 버튼을 누르면 즉시보행자 신호는 초록색, 운전자 신호는 빨간색으로 변경    
 ```
+
+#### 타이머 프로그램
+![timecounter](https://user-images.githubusercontent.com/70925962/126265917-2d89d402-6e92-4762-b53a-17315f6057e7.gif)
+```
+조이스틱, CDS 센서로 시작을 판단하고 5초동안 스텝모터 회전 후
+LED와 소리센서로 종료를 알리는 타이머 프로그램
+```
+
+#### 비밀번호 확인
+
+```
+키패드 모듈과 LED로 비밀번호 입력을 확인
+틀릴 경우와 맞는 경우, 소리 센서가 다르게 동작
+```
+
 ## :file_folder: 파일별 기록    
 #### Day01
 ```C언어 기초, C언어 사용 아두이노 LED 실습 진행```
@@ -59,3 +74,17 @@
 > **09_joyStickLED** 조이스틱과 스위치로 LED 조절           
 > **10_joyStickServoControl** 조이스틱 x축 이동으로 서보모터 회전          
 > **11_gameStopwatch** game 스탑워치 활용 예제            
+
+#### Day06
+```키패드 모듈, LCD, tinkercad 사용법```        
+https://www.tinkercad.com/
+
+> **01_keypad** 키패드 모듈로 화면 출력, LED 깜박이기             
+> **02_passwordKey** 비밀번호 확인           
+> **03_LCD** lcd 출력하기 예제         
+> **04_LCDprint** lcd 입력받아 출력하기           
+> **05_LCDemoji** lcd 이모티콘 만들어 출력하기     
+> **06_LCDtemp** lcd에 온도, 습도 출력하기      
+> **07_volumnControl** 가변저항으로 볼륨크기 조절      
+> **08_anode** anode 타입 제어       
+> **09_cathode** 케소드 타입 제어

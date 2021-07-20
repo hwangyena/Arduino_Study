@@ -1,22 +1,19 @@
 #include <HuemonelabKit.h>
 #include "pitches.h"
 
-/*joyStick 값 확인*/
+/*joyStick 값 확인, 20:마진*/
 #define RIGHT 512+20
 #define LEFT 512-20
 
 int SWITCH =  2;
 int BEEP = 7;
-//int RED = 3;
-//int GREEN = 5;
-//int BLUE = 6;
 int RED = 6;
 int GREEN = 5;
 int BLUE = 3;
 
 int angle = 0;
 int Start = 0;
-Stepper stepper(11,10,9,8);
+Stepper stepper(11,10,9,8); //회전센서
 
 int melody1[]={NOTE_C5,NOTE_C5,NOTE_C5,NOTE_C5};
 int melody2[]={
@@ -45,14 +42,14 @@ void setup(){
 }
 
 void melody(int buzzer){
-  if(buzzer==1){
+  if(buzzer==1){ //시작
     for(int i=0; i<4; i++){
       tone(BEEP,melody1[i],100);
       delay(250);
       noTone(BEEP);
     }
   }
-  else if(buzzer==2){
+  else if(buzzer==2){ //종료
     for(int i=0; i<27; i++){
       int del = 1000 / d[i];
       tone(BEEP,melody2[i],del);
@@ -62,6 +59,7 @@ void melody(int buzzer){
   }
   buzzer = 0;
 }
+
 /*CDS 선택시, 5회전*/
 void CDS(){
   int val = analogRead(A0);
@@ -99,10 +97,12 @@ void joyStick(){
 
 void loop() {
   CDS();
+  //CDS 측정 됨 -> timer 시작 
   if(Start==1){
     stepper.setSpeed(1);
     melody(1);
     colorLED(1,0);
+    
     for(int i=1; i<=5; i++){    
       Serial.print(i*5);
       Serial.print("초 경과");
@@ -113,6 +113,8 @@ void loop() {
       stepper.setTimer(5);
       colorLED(1,50*i);
     }
+    
+    //종료음 및 빨간색 -> 파란색 LED 변경
     colorLED(2,0);
     melody(2);
     colorLED(0,0); 
