@@ -76,7 +76,7 @@ LED와 소리센서로 종료를 알리는 타이머 프로그램
 > **11_gameStopwatch** game 스탑워치 활용 예제            
 
 #### Day06
-```키패드 모듈, LCD, tinkercad 사용법```        
+```키패드 모듈, LCD, tinkercad 사용법, 7-segment```        
 https://www.tinkercad.com/
 
 > **01_keypad** 키패드 모듈로 화면 출력, LED 깜박이기             
@@ -87,4 +87,18 @@ https://www.tinkercad.com/
 > **06_LCDtemp** lcd에 온도, 습도 출력하기      
 > **07_volumnControl** 가변저항으로 볼륨크기 조절      
 > **08_anode** anode 타입 제어       
-> **09_cathode** 케소드 타입 제어
+> **09_cathode** cathod 타입 제어      
+
+#### Day07
+```7-segment catgod type, 74HC95 shift register, RTC, bluetooth, 앱 인벤터```
+
+> **01_cathodType** cathod 타입 출력 확인     
+> **02_multiply_two** 2의 배수만 표시하기      
+> **03_numberChange** 가변저항으로 출력 조절     
+> **04_LsbMsb** LSB, MSB 차이     
+> **05_neonsign** 74HC95로 네온사인 만들기    
+> **06_binarySign** 2진수로 LED 표시     
+> **07_ds1302Time** RTC DS1302 모듈로 시간 출력    
+> **08_bluetooth** bluetooth 연결      
+
+
