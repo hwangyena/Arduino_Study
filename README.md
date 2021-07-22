@@ -102,3 +102,7 @@ https://www.tinkercad.com/
 > **08_bluetooth** bluetooth 연결      
 
 
+#### Day08
+```앱 인벤터와 블루투스 연동, X-SCADA, modeBus, ESP32cam, 구글 티처블 머신``` 
+> **01_bluetoothLED** 앱인벤터와 bluetooth 연동해 LED 불 켜기     
+> **02_modeBus1** modeBus 통신테스트       
