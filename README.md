@@ -1,8 +1,21 @@
-# :raised_hands: 아두이노를 활용한 IoT 센서기술
+# 아두이노를 활용한 IoT 센서기술
 2021.07.13 ~ 2021.07.23     
 울산대학교에서 진행한 아두이노 활용 실습 파일 기록
+<br><br>
 
-## 실생활 적용 예제
+
+## 🖱️ 내가 만든 프로젝트 - 수용가능 인원 확인
+![miniproject](https://user-images.githubusercontent.com/70925962/126786827-69981cc9-d717-458c-9181-aef64087d9a6.gif)
+
+```
+PIR 센서를 이용해 사람들이 들어올때 수를 파악하여 현재 수용가능한 인원을 LCD로 보여주고
+인원초과시 LED와 소리로 경고를 주는 프로젝트
+```
++ 사용한 센서: PIR, LCD, RGB LED 캐소드, 푸시버턴, 능동부저
++ IoT 프로젝트 수업에서 우수 참여자 3등 🥉 
+
+
+## 🚶 실생활 적용 예제
 #### 보행자 신호등
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/70925962/125879967-2125e040-e310-462d-924c-79c1ec888a27.gif)
 ```
@@ -106,3 +119,8 @@ https://www.tinkercad.com/
 ```앱 인벤터와 블루투스 연동, X-SCADA, modeBus, ESP32cam, 구글 티처블 머신``` 
 > **01_bluetoothLED** 앱인벤터와 bluetooth 연동해 LED 불 켜기     
 > **02_modeBus1** modeBus 통신테스트       
+
+#### Day09
+```구글 티처블, 프로젝트 개발```
+> **01_p5** 구글 티처블 사용 마스크 인식 프로그램     
+> **02_miniProject** 나만의 프로젝트 진행 - 수용 가능 인원 확인
